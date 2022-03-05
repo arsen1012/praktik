@@ -1,0 +1,446 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+div,
+p,
+input,
+button,
+form,
+span,
+a,
+ul,
+li {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1050px;
+    margin: auto;
+}
+
+.wrapper {
+    width: 1050px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.offer {
+    width: 473px;
+    margin: auto;
+}
+
+.offer h2 {
+    color: #B5CA00;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.titel {
+    width: 350px;
+    font-size: 40px;
+    font-weight: 400;
+    padding: 25px 0px 30px 0px;
+}
+
+.text-titel {
+    text-align: center;
+    font-family: Roboto;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 47px;
+    letter-spacing: 0em;
+}
+
+.btn {
+    background: #B5CA00;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    width: 295px;
+    height: 60px;
+    padding: 20px 0;
+    display: block;
+    font-weight: 700;
+    font-size: 18px;
+    border-radius: 4px;
+    transition: all 0.5 ease;
+}
+
+.btn:hover {
+    background: #A5B618;
+}
+
+.section-titel {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+    padding-top: 50px;
+}
+
+.skill {
+    display: flex;
+    justify-content: space-between;
+    width: 1050px;
+    height: 230px;
+    margin: 50px auto;
+    padding: 0;
+    text-align: center;
+}
+
+.skill-titel {
+    font-size: 23px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.skill-text {
+    font-size: 16px;
+    font-weight: 300;
+    width: 203px;
+    margin-top: 100%;
+    display: flex;
+    padding: 0;
+    margin: auto;
+}
+
+.money {
+    background: url(../img/money.png) no-repeat center top;
+}
+
+.calendar {
+    background: url(../img/calendar.png) no-repeat center top;
+}
+
+.home {
+    background: url(../img/invent.png) no-repeat center top;
+}
+
+.invent {
+    background: url(../img/home.png) no-repeat center top;
+}
+
+.skill div {
+    padding-top: 11.80%;
+}
+
+.section-learn {
+    display: flex;
+    width: 1050px;
+    margin: auto;
+    height: 300px;
+}
+
+.number {
+    width: 60px;
+    height: 60px;
+    background: #AAD4C8;
+    border-radius: 100px;
+    color: #fff;
+    font-family: Roboto;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding-top: 13px;
+}
+
+.space-titel h3 {
+    font-family: Roboto;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    width: 150px;
+    padding: 40px 0px 23px 0px;
+}
+
+.space-titel p {
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    width: 204px;
+    height: 79px;
+}
+
+.space-test {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-titel {
+    text-align: center;
+    padding-bottom: 67px;
+}
+.section-logo {
+    width: 208px;
+    height: 85px;
+    display: flex;
+    margin-left: 19px;
+    margin-bottom: 35px;
+}
+.section-logo h1 {
+    padding-top: 35px ;
+    font-size: 40px;
+    font-weight: 400;
+}
+.registr {
+    background: #8664C6 ;
+}
+.girl {
+    margin-top: 102px;
+}
+.form-content {
+    width: 839px;
+    height: 186px;
+    color: #fff;
+    float: right;
+    margin-top: 96px;
+}
+.information {
+    width: 360px;
+    height: 50px;
+
+}
+.input-text {
+    font-size:18px ;
+    font-weight: 400;
+    padding-bottom: 14px;
+    padding-top: 19px;
+}
+.content-form {
+    display: grid;
+    grid-template-columns: repeat(7, 2fr);
+    grid-gap: 10px;
+    grid-auto-rows: 40px;
+    grid-template-areas:
+      "a a a a b b b b"
+      "a a a a b b b b"
+      "c c c c d d d d"
+      "c c c c d d d d";
+  }
+  .item1 {
+    grid-area: a;
+  }
+  .item2 {
+    grid-area: b;
+    align-self: start;
+  }
+  .item3 {
+    grid-area: c;
+    align-self: start;
+  }
+  .item4 {
+    grid-area: d;
+    align-self: start;
+  }
+  .section-button {
+    float: right;
+    margin-top: 100px;
+    font-weight: 700;
+    font-size: 18px;
+  }
+  .titel-last {
+      text-align: center;
+      font-size: 40px;
+      font-weight: 400;
+      margin-top: 70px;
+  }
+  .time-work h3 {
+      font-size: 23px;
+      font-weight: 400;
+      margin-top: 35px;
+  }
+  .time-work p {
+      font-size: 16px;
+      font-weight: 400;
+      margin-top: 13px;
+  }
+  #buton {
+    margin: auto;
+    margin-top: 70px;
+  }
+  .footer {
+    background: #8664C6 ;
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 30px;
+    padding:  10px 0px 10px 0px;
+    color: #fff;
+  }
+  /*Responsive*/
+
+
+/* 992px - 1200px */
+@media screen and (max-width: 1200px) {
+    .container{
+        width: 950px;
+    }
+    .wrapper {
+        background: url(../img/head.png) no-repeat /* center */ ;
+        height: 600px;
+        width: 950px;
+        margin-top: 25px;
+        color: #fff;
+    }
+    .offer {
+        margin-bottom: 250px;
+        margin-left: 500px;
+
+    } 
+    .skill {
+        width: 950px;
+    }
+    .head_img {
+        display: none;
+    }
+.registr {
+    height: 500px;
+}
+.section-button {
+    padding-right: 300px;
+}
+.girl {
+    display: none;
+}
+}
+
+/* 768px - 992px */
+@media screen and (max-width: 992px) {
+.container {
+    width: 720px;
+}
+.wrapper{
+    flex-direction: column;
+    width: 720px;
+    
+}
+.offer {
+padding-top: 100px;
+width: auto;
+margin: auto;
+}
+.head_img {
+    display: none;
+}
+.skill {
+    width: 720px;
+    margin-bottom: 500px;
+    flex-direction: column;
+}
+.content-form {
+    width: 500px;
+    flex-direction: column;
+    display: block;
+    margin: auto;
+}
+.form-content {
+    width: 690px;
+    display: block;
+    margin: auto;
+}
+.section-button {
+    margin: auto;
+    padding-top: 10px;
+    padding-left: 235px;
+}
+
+}
+
+/* 576px - 768px */
+@media screen and (max-width: 768px) {
+.container {
+    width: 540px;
+}
+
+.offer{
+margin: auto;
+}
+.skill{
+    width: 540px;
+   
+}
+.space-test {
+    flex-direction: column;
+    align-items: center;
+
+}
+.wrapper{
+    width: 540px;
+    
+ 
+    align-content: center;
+    margin: auto;
+    color: #000;
+
+}
+#head_img {
+    display: none;
+}
+.skill-titel {
+    margin-top: 25px;
+}
+.content-form {
+    margin-left: 230px;
+    width: 400px;
+}
+.section-button {
+    display: none;
+    margin: auto;
+    align-items: center;
+    padding-top: 10px;
+    
+}
+}
+/* .money, .calendar, .home, .invent {
+    p
+} */
+
+/* 320px - 576px */
+@media screen and (max-width: 576px) {
+.container {
+    width: 90%;
+}
+#logo {
+    width: 90%;
+    
+}
+.titel {
+    width: 90%;
+}
+.wrapper {
+    width: 90%;
+}
+.skill{
+    width: 90%;
+}
+.registr{
+    width: 100%;
+}
+.information {
+    width: 300px;
+    margin-left: 165px;
+}
+.skill-titel {
+    margin-top: 57px;
+}
+}
+  
